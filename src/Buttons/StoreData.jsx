@@ -106,6 +106,7 @@ const StoreData = () => {
         <option value="suncare">SUNCARESHINING SOLUTION PRIVATE LIMITED</option>
         <option value="impact">IMPACTPEAK PRIVATE LIMITED</option>
         <option value="nearson">NEARASON SOLUTIONS PRIVATE LIMITED</option>
+        <option value="walexopay">WALEXOPAY TECHNOLOGY PRIVATE LIMITED</option>
       </select>
 
       <input
