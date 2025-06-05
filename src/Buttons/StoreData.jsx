@@ -77,7 +77,7 @@ const StoreData = () => {
       const zipBlob = await generateZIP(endpoint); // Call the updated generateZIP function
       const zipUrl = URL.createObjectURL(zipBlob); // Create a URL for the blob
       setZipFileURL(zipUrl); // Store the generated ZIP URL in state
-      
+
       // Automatically trigger download by creating an anchor tag
       const link = document.createElement("a");
       link.href = zipUrl;
@@ -106,7 +106,7 @@ const StoreData = () => {
         <option value="suncare">SUNCARESHINING SOLUTION PRIVATE LIMITED</option>
         <option value="impact">IMPACTPEAK PRIVATE LIMITED</option>
         <option value="nearson">NEARASON SOLUTIONS PRIVATE LIMITED</option>
-        <option value="walexopay">WALEXOPAY TECHNOLOGY PRIVATE LIMITED</option>
+        <option value="welexopay">WALEXOPAY TECHNOLOGY PRIVATE LIMITED</option>
       </select>
 
       <input
