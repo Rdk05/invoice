@@ -107,6 +107,7 @@ const StoreData = () => {
         <option value="impact">IMPACTPEAK PRIVATE LIMITED</option>
         <option value="nearson">NEARASON SOLUTIONS PRIVATE LIMITED</option>
         <option value="welexopay">WALEXOPAY TECHNOLOGY PRIVATE LIMITED</option>
+        <option value="esrgmgInfo">ESRGMG INFOTECH SOLUTION PRIVATE LIMITED</option>
       </select>
 
       <input
