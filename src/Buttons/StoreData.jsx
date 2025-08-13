@@ -9,7 +9,7 @@ const StoreData = () => {
   const [isStoreData, setIsStoreData] = useState(false);
   const [isPDFGenerated, setIsPDFGenerated] = useState(false);
   const [isLoadingPDF, setIsLoadingPDF] = useState(false);
-  const [zipFileURL, setZipFileURL] = useState(null); // State to hold the ZIP file URL
+  const [zipFileURL, setZipFileURL] = useState(null);
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
@@ -108,6 +108,7 @@ const StoreData = () => {
         <option value="nearson">NEARASON SOLUTIONS PRIVATE LIMITED</option>
         <option value="welexopay">WALEXOPAY TECHNOLOGY PRIVATE LIMITED</option>
         <option value="esrgmgInfo">ESRGMG INFOTECH SOLUTION PRIVATE LIMITED</option>
+        <option value="amrtaInfo">AMRTA HANDICRAFTS PRIVATE LIMITED</option>
       </select>
 
       <input
