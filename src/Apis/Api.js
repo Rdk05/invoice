@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const storeData = async (endpoint, selectedFile) => {
-  const url = `http://invoice.yunicare.in/v1/${endpoint}/storeData`;
+  const url = `http://invoice.collectguru.in/v1/${endpoint}/storeData`;
   const formData = new FormData();
   formData.append('sheet', selectedFile); 
 
@@ -22,7 +22,7 @@ export const storeData = async (endpoint, selectedFile) => {
 
 
 export const generatePDF = async (endpoint) => {
-    const url = `http://invoice.yunicare.in/v1/${endpoint}/generatePDF`;
+    const url = `http://invoice.collectguru.in/v1/${endpoint}/generatePDF`;
   
     try {
       const response = await axios.get(url); 
@@ -33,7 +33,7 @@ export const generatePDF = async (endpoint) => {
   };
 
   export const generateZIP = async (endpoint) => {
-    const url = `http://invoice.yunicare.in/v1/${endpoint}/generateZip`;
+    const url = `http://invoice.collectguru.in/v1/${endpoint}/generateZip`;
   
     try {
       const response = await axios.get(url, {
